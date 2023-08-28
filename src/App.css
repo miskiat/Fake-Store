@@ -1,0 +1,21 @@
+.navbar {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+.acme {
+  weight: 1rem;
+  height: 1rem;
+  background-color: rgb(251, 251, 251);
+  border: 1px solid grey;
+  border-radius: 20%;
+  margin: auto;
+}
+.search {
+  weight: 1rem;
+  height: 1rem;
+}
+.cart {
+  weight: 1rem;
+  height: 1rem;
+}
