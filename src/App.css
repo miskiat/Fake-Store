@@ -1,6 +1,9 @@
 .navbar {
   display: flex;
-  /* align-items: center; */
+  flex-direction: row;
+  justify-content: start;
+
+  align-items: center;
   justify-content: space-between;
 }
 .acme {
