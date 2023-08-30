@@ -8,7 +8,24 @@ function App() {
   return (
     <div>
       <Navbar />
-      Aisha Elenu Shockrusssssss
+      <div>
+        <div>
+          <p>Collections</p>
+          <p>All</p>
+          <p>Men's clothing</p>
+          <p>Woman's clothing</p>
+          <p>Jewelery</p>
+          <p>Electronics</p>
+        </div>
+        <div>
+          <p>Sorts</p>
+          <p>Relevance</p>
+          <p>Trending</p>
+          <p>Latest arrivals</p>
+          <p>Price: Low to high</p>
+          <p>Price: High to low</p>
+        </div>
+      </div>
     </div>
   );
 }
