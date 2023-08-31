@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div>
+    <div className="footer">
       <img className="acme" src="/public/acme.svg" />
       <h4>ACME STORE</h4>
       <div>
@@ -10,10 +10,8 @@ const Footer = () => {
         <p>About</p>
         <p>Terms & Condition</p>
         <p>Shipping & Return Policy</p>
-
-        <p>Home</p>
-
-        <p>Home</p>
+        <p>Privacy Policy</p>
+        <p>FAQ</p>
       </div>
     </div>
   );
