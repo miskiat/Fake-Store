@@ -9,9 +9,9 @@ function App() {
   return (
     <div>
       <Navbar />
-      <div>
+      <div className="side-options">
         <div>
-          <p>Collections</p>
+          <p className="top">Collections</p>
           <p>All</p>
           <p>Men's clothing</p>
           <p>Woman's clothing</p>
@@ -19,7 +19,7 @@ function App() {
           <p>Electronics</p>
         </div>
         <div>
-          <p>Sorts</p>
+          <p className="top">Sorts</p>
           <p>Relevance</p>
           <p>Trending</p>
           <p>Latest arrivals</p>

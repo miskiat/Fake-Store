@@ -5,7 +5,7 @@ const Footer = () => {
     <div className="footer">
       <img className="acme" src="/public/acme.svg" />
       <h4>ACME STORE</h4>
-      <div>
+      <div className="footer-option">
         <p>Home</p>
         <p>About</p>
         <p>Terms & Condition</p>
