@@ -7,9 +7,9 @@ const Navbar = () => {
 
       <h4>ACME STORE </h4>
       <div>All Shirts Stickers</div>
-      <div>
+      <div className="search">
         <input placeholder="Search for Products..." />
-        <img className="search" src="/public/search.svg" />
+        <img className="search-box" src="/public/search.svg" />
       </div>
       <div>
         <img className="cart" src="/public/cart.svg" />
