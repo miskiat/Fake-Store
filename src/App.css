@@ -27,7 +27,7 @@
   justify-content: space-between;
 }
 .top {
-  color: rgb(95, 93, 93);
+  color: rgb(151, 104, 104);
   font-size: large;
 }
 .bag {
@@ -35,6 +35,7 @@
   height: 15rem;
 }
 .footer {
+  margin-top: 5rem;
   display: flex;
 }
 .footer-option {
