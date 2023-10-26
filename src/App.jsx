@@ -13,7 +13,7 @@ function App() {
       <div className="side-options">
         <div>
           <p className="top">Collections</p>
-          <div className="">
+          <div className="collection">
             <p>All</p>
             <p>Men's clothing</p>
             <p>Woman's clothing</p>
@@ -24,7 +24,7 @@ function App() {
         <ProductCard />
         <div>
           <p className="top">Sorts by</p>
-          <div>
+          <div className="collection">
             <p>Relevance</p>
             <p>Trending</p>
             <p>Latest arrivals</p>

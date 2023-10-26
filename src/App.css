@@ -14,10 +14,11 @@
   border: 1px solid grey;
   border-radius: 0.5rem;
   padding: 1rem;
-  /* margin: auto; */
+  cursor: pointer;
 }
 .navbar h4 {
   margin: 0 1rem;
+  cursor: pointer;
 }
 .navbar span {
   padding: 0 1rem;
@@ -31,6 +32,7 @@
   margin: 0 10rem;
   padding: 0.25rem;
   background-color: white;
+  width: 30rem;
 }
 .search input {
   border: none;
@@ -49,8 +51,9 @@
   justify-content: space-between;
 }
 .top {
-  color: rgb(206, 44, 44);
+  color: rgba(0, 0, 0, 0.7);
   font-size: large;
+  cursor: pointer;
 }
 .bag {
   width: 18rem;
@@ -63,7 +66,17 @@
 }
 .footer h4 {
   margin: 1rem;
+  cursor: pointer;
 }
 .footer-option {
-  color: rgb(235, 105, 105);
+  color: rgba(0, 0, 0, 0.7);
+  padding: 0 5rem;
+  font-size: larger;
+}
+
+.collection {
+  cursor: pointer;
+}
+.collection:hover {
+  text-underline-offset: inherit;
 }
