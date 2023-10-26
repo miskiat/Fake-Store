@@ -59,6 +59,10 @@
 .footer {
   margin-top: 5rem;
   display: flex;
+  padding: 0 5rem;
+}
+.footer h4 {
+  margin: 1rem;
 }
 .footer-option {
   color: rgb(235, 105, 105);
