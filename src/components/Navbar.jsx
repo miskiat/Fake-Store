@@ -5,9 +5,12 @@ const Navbar = () => {
     <div className="navbar">
       <img className="acme" src="/public/acme.svg" />
 
-      <h4>ACME STORE </h4>
+      <h4 className>ACME STORE </h4>
 
-      <div>All Shirts Stickers</div>
+      <span>All</span>
+      <span>Shirts</span>
+      <span>Stickers</span>
+
       <div className="search">
         <input placeholder="Search for Products..." />
         <img className="search-box" src="/public/search.svg" />

@@ -21,8 +21,9 @@ function App() {
             <p>Electronics</p>
           </div>
         </div>
+        <ProductCard />
         <div>
-          <p className="top">Sorts</p>
+          <p className="top">Sorts by</p>
           <div>
             <p>Relevance</p>
             <p>Trending</p>
@@ -31,7 +32,6 @@ function App() {
             <p>Price: High to low</p>
           </div>
         </div>
-        <ProductCard />
       </div>
       <Footer />
     </div>
