@@ -25,6 +25,7 @@
 }
 .search-box {
   width: 1rem;
+  margin-left: 12rem;
 }
 .search {
   border: 1.5px solid rgba(0, 0, 0, 0.1);
