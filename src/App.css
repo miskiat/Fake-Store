@@ -23,7 +23,7 @@
 .navbar span {
   padding: 0 1rem;
   color: rgba(0, 0, 0, 0.7);
-  font-size: large;
+  font-size: larger;
 }
 .search-box {
   width: 1rem;
